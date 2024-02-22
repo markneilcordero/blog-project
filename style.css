@@ -1,0 +1,141 @@
+html{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  font-family: cursive;
+}
+.container{
+  width: 800px;
+  padding: 10px;
+  margin: 8px auto;
+  background-color: snow;
+  box-shadow: 0 0 8px black;
+  border-radius: 8px;
+}
+#header{
+  background-image: url(images/abstract.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#header img{
+  width: 120px;
+  margin: auto;
+  border-radius: 200px;
+  display: block;
+  border: 5px solid darkslategray;
+}
+#header p{
+  color: darkslategray;
+  padding-top: 10px;
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+}
+.section{
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 2px 2px 8px black;
+}
+h1{
+  padding: 18px 0 18px 0;
+  text-align: center;
+}
+h1 span{
+  color: lightseagreen;
+  padding: 6px;
+  border: 4px dashed lightseagreen;
+}
+.quote{
+  text-align: right;
+}
+table{
+  width: 80%;
+  margin: auto;
+}
+table, th, td{
+  text-align: center;
+  border-collapse: collapse;
+  border: 2px solid gray;
+  table-layout: fixed;
+}
+.selected{
+  color: snow;
+  background-color: lightseagreen;
+  font-weight: bold;
+}
+li{
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+progress{
+  width: 70%;
+  height: 20px;
+}
+progress[value]{
+  -webkit-appearance: none;
+  appearance: none;
+}
+progress[value]::-webkit-progress-bar{
+  background-color: silver;
+}
+progress[value]::-webkit-progress-value{
+  background-color: lightseagreen;
+}
+form{
+  text-align: center;
+  margin-top: 0;
+}
+input, textarea{
+  width: 70%;
+  padding: 15px 10px 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: darkslategray;
+  background-color: lightgray;
+  border: 1px solid gray;
+  border-radius: 5px;
+  outline: none;
+}
+textarea{
+  height: 100px;
+}
+.submit{
+  margin: 0;
+  padding: 15px;
+  border: none;
+  font-weight: bold;
+  color: white;
+  background-color: lightseagreen;
+  outline: none;
+  cursor: pointer;
+}
+.submit:hover{
+  color: white;
+  background-color: darkslategray;
+}
+#follow-me{
+  text-align: center;
+}
+#follow-me a{
+  text-decoration: none;
+}
+#follow-me img{
+  width: 80px;
+  height: 80px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+#follow-me img:hover{
+  opacity: 0.8;
+}
+.copyright{
+  padding-bottom: 10px;
+  text-align: right;
+  color: silver;
+  font-size: 18px;
+}
